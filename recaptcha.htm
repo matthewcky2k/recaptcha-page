@@ -2,11 +2,11 @@
 <html>
 <head>
     <title>reCAPTCHA v3</title>
-    <script src="https://www.google.com/recaptcha/api.js?render=YOUR_RECAPTCHA_SITE_KEY"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Le2O_0pAAAAAO9J7GiOfkCGbCrtaKPEkAMpmhHm"></script>
     <script>
         function onLoad() {
             grecaptcha.ready(function() {
-                grecaptcha.execute('YOUR_RECAPTCHA_SITE_KEY', {action: 'login'}).then(function(token) {
+                grecaptcha.execute('6Le2O_0pAAAAAO9J7GiOfkCGbCrtaKPEkAMpmhHm', {action: 'login'}).then(function(token) {
                     document.getElementById('recaptchaToken').value = token;
                 });
             });
